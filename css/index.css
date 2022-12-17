@@ -1,8 +1,12 @@
 body {
   background-image: url("../src/2.jpg");
   background-repeat: no-repeat;
+  height: 100vh;
+  -webkit-background-size: cover;
   background-size: cover;
-  height: 300vh;
+  background-position: center center;
+  position: relative;
+  background-blend-mode: soft-light;
 }
 
 a {
@@ -41,28 +45,38 @@ a {
 }
 
 .expbtn {
-  margin-top: 25%;
-  border-radius: 30px;
+  margin-top: 1%;
+  border-radius: 400px;
   width: 180px;
   height: 60px;
-  border: 2px solid rgb(0, 131, 192);
-  color: rgb(0, 131, 192);
+  border: 3px solid rgb(98, 47, 80);
+  color: rgb(48, 25, 131);
   background-color: transparent;
   font-size: 30px;
+  
 }
 
-.expbtn:hover{
+.expbtn:hover {
   border: 2px solid lightgray;
 }
 
-.center-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  }
+.center-container {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: 20% 30%;
+  text-align: center;
+}
 
-  .middle-container {
-    margin-top: 55%;
-    background-color: red;
-  }
+.middle-container {
+  margin-top: 55%;
+  background-color: red;
+}
+.center-container h1 {
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: initial;
+  font-weight: 600;
+  color: rgb(62, 6, 6);
+}
