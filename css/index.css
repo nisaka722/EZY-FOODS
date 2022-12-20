@@ -14,7 +14,7 @@ a {
 }
 
 .nav__area li a {
-  color: rgb(58, 59, 69);
+  color: rgb(18, 18, 24);
   text-decoration: none;
   padding: 7px 30px;
   font-family: poppins;
@@ -49,8 +49,8 @@ a {
   border-radius: 400px;
   width: 180px;
   height: 60px;
-  border: 3px solid rgb(98, 47, 80);
-  color: rgb(48, 25, 131);
+  border: 3px solid rgb(61, 6, 6);
+  color: rgb(78, 12, 12);
   background-color: transparent;
   font-size: 30px;
 }
