@@ -27,11 +27,8 @@ a {
 }
 
 .center-container {
-  
-  
-  position:var();
+  position: var();
   text-align: center;
-  
 }
 
 .middle-container {
@@ -39,8 +36,7 @@ a {
   background-color: red;
 }
 .center-container h1 {
-  
-  height:50%;
+  height: 50%;
   font-size: 60px;
   text-align: center center;
   display: block;
@@ -50,19 +46,17 @@ a {
   color: rgb(62, 6, 6);
 }
 
-
-.options{
+.options {
   background-color: #fff;
 
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   height: auto;
-  width:100%;
-  
+  width: 100%;
 }
 
-.card{
+.card {
   width: 360px;
   height: 309px;
   display: inline-block;
@@ -74,43 +68,42 @@ a {
   background-position: center;
   background-position: cover;
   margin-left: 7.5%;
-  
+
   margin-top: 2.2%;
   margin-bottom: 1%;
   transition: transform 0.5s;
-
 }
 
-.card a{
+.card a {
   color: rgb(44, 12, 16);
   text-align: center;
   display: block;
   font-size: 30px;
   margin-top: 45%;
-  font-family:Arial, Helvetica, sans-serif ; 
+  font-family: Arial, Helvetica, sans-serif;
 }
-.card1{
+.card1 {
   background-image: url(src/2.jpg);
 }
-.card2{
+.card2 {
   background-image: url("src/i.jpg");
 }
-.card3{
+.card3 {
   background-image: url("src/i.jpg");
 }
-.card4{
+.card4 {
   background-image: url("src/i.jpg");
 }
-.card5{
+.card5 {
   background-image: url("src/i.jpg");
 }
-.card6{
+.card6 {
   background-image: url("src/i.jpg");
 }
 
-.card:hover{
+.card:hover {
   transform: translateY(-10px);
 }
-.card a:hover{
+.card a:hover {
   color: #fff;
 }
