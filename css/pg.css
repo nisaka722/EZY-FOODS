@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+.main{
+    background-color: #aa8661;
+}
+.cards{
+    width: 17.2%;
+    display:inline-block;
+    background-color: rgb(250, 240, 226);
+    border-radius: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom:50px;
+    margin-top: 50px;
+    height: 510px;
+    box-shadow: 2px 2px 2px black;
+    
+
+    
+}
+
+
+
+.image img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width:100%;
+    text-align: center;
+
+}
+
+.title{
+    
+    text-align: center;
+    font-weight: 400;
+    margin-top: 30px;
+    color: #973333;
+    
+}
+
+.des{
+    text-align: center;
+    color: black-color;
+   font-weight: bold;
+   font-size: 1.2rem;
+   margin: .3em 0 1.8em;
+
+}
+
+button{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-family: var(--headlinesFont);
+    display: inline-block;
+    background: var(--wildWatermelon);
+    padding: .45em 1em;
+    width: 59%;
+    display:block;
+    border-radius: 8px;
+    border-color: #973333;
+    color: rgb(143, 48, 48);
+    font-weight: 800;
+    letter-spacing: .2px;
+    font-size: 17px;
+    margin-left: 13%;
+    
+}
+
+button:hover{
+    background-color: #973333;
+    color: rgb(16, 13, 13);
+  
+}
+
+
+.des p{
+    color: black-color;
+   
+   font-size: 1.2rem;
+}
+
+
+.recipe-details {
+    display: flex;
+    list-style: none;
+    padding: 1.4em 0 1em;
+    margin: 0;
+    justify-content: space-between;}
+    
+.recipe-details-item {
+    flex: 1;}
+        
+.recipe-details-item i {
+    font-size: 30px; }
+    
+    
+.value {
+    color: #ff4f87;
+    margin-left: .55em;
+    vertical-align: bottom;
+    font-size: 20px;
+    font-weight: 600;
+ }
+        
+.title {
+    display: block;
+    margin-top: -4px;
+    font-size: 21px;
+    font-weight:300;
+    font-family: var(--headlinesFont);
+}
+            
+                
+
+
